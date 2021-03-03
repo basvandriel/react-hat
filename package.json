@@ -1,0 +1,42 @@
+{
+  "name": "react-hat",
+  "version": "1.0.0",
+  "description": "A document head manager for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basvandriel/react-hat.git"
+  },
+  "keywords": [
+    "react-hat",
+    "react",
+    "document",
+    "document",
+    "head",
+    "title",
+    "meta",
+    "link",
+    "script",
+    "base",
+    "noscript",
+    "style"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "author": "Bas van Driel <contact@basvandriel.nl>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/basvandriel/react-hat/issues"
+  },
+  "homepage": "https://github.com/basvandriel/react-hat#readme",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "react": "^17",
+    "react-dom": "^17"
+  }
+}
