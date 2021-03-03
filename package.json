@@ -4,7 +4,9 @@
   "description": "A document head manager for React",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint --fix **/*.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +15,6 @@
   "keywords": [
     "react-hat",
     "react",
-    "document",
     "document",
     "head",
     "title",
@@ -35,6 +36,13 @@
   },
   "homepage": "https://github.com/basvandriel/react-hat#readme",
   "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.22.0",
     "jest": "^26.6.3",
     "react": "^17",
     "react-dom": "^17"
