@@ -2,12 +2,10 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    node: true,
     'jest/globals': true
   },
-  extends: [
-    'plugin:react/recommended',
-    'standard'
-  ],
+  extends: ['standard', 'eslint:recommended', 'plugin:react/recommended'],
   settings: {
     react: {
       version: 'detect'
@@ -23,5 +21,9 @@ module.exports = {
   plugins: [
     'react', 'jest'
   ],
-  rules: {}
+  rules: {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 1
+  }
 }
